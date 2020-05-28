@@ -78,7 +78,22 @@ module.exports = {
             {
                 type: "category",
                 label: "File Manager",
-                items: ["webiny-apps/file-manager/getting-started"]
+                items: [
+                    "webiny-apps/file-manager/getting-started",
+                    {
+                        type: "category",
+                        label: "Development",
+                        items: [
+                            {
+                                type: "category",
+                                label: "Plugins Reference",
+                                items: [
+                                    "webiny-apps/file-manager/development/plugin-reference/app"
+                                ]
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 type: "category",
